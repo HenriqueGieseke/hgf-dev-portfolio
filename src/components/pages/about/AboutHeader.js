@@ -25,15 +25,27 @@ const Header = () => {
         <StyledName>Henrique Gieseke Ferreira</StyledName>
         <StyledTitle>Programador Full Stack, Rio de Janeiro, RJ</StyledTitle>
         <IconsWrapper>
-          <Link>
+          <a
+            href="https://www.instagram.com/henriquegieseke/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={instagramIcon} alt="Instagram" />
-          </Link>
-          <Link>
+          </a>
+          <a
+            href="https://www.facebook.com/henrique.gieseke"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={facebookIcon} alt="Facebook" />
-          </Link>
-          <Link>
+          </a>
+          <a
+            href="https://github.com/HenriqueGieseke"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={githubIcon} alt="Github" />
-          </Link>
+          </a>
         </IconsWrapper>
       </ProfileWrapper>
     </HeaderNav>
