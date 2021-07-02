@@ -7,7 +7,7 @@ const LandingContent = () => {
   let history = useHistory();
 
   const handleClick = () => {
-    history.push('/contact');
+    history.push('/about');
   };
 
   return (
@@ -20,7 +20,7 @@ const LandingContent = () => {
         <img src={landingImage} alt="Landing" />
       </ContentWrapper>
       <ButtonWrapper>
-        <StyledButton onClick={handleClick}>ENTRE EM CONTATO</StyledButton>
+        <StyledButton onClick={handleClick}>SAIBA MAIS</StyledButton>
       </ButtonWrapper>
     </Container>
   );
@@ -102,7 +102,7 @@ const ButtonWrapper = styled.div`
 `;
 
 const StyledButton = styled.button`
-  width: 334px;
+  width: 294px;
   height: 66px;
   background: #9a3aa6;
   border-radius: 19px;
@@ -119,7 +119,7 @@ const StyledButton = styled.button`
   }
 
   @media (max-width: 1400px) {
-    width: 250px;
+    width: 200px;
     height: 46px;
 
     font-size: 16px;
@@ -127,7 +127,7 @@ const StyledButton = styled.button`
   }
 
   @media (max-width: 300px) {
-    width: 200px;
+    width: 170px;
   }
 `;
 
